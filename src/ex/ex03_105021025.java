@@ -4,12 +4,20 @@ package ex;
  * Date: 2016/09/19
  * Author: 1050210XX 周永振老師
  */
-
+import java.util.Scanner;
 public class ex03_1050210XX {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scr = new Scanner(System.in);
+		System.out.println("請輸入兩個正整數");
+		System.out.print("a=");
+		int a = scr.nextInt();
+		System.out.print("b=");
+		int b = scr.nextInt();
+		double c;
+		c=Math.pow(a, b);
+		System.out.println(a + "的" + b + "次方=" + (int)c);
 	}
 
 }
